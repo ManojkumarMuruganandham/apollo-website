@@ -1,0 +1,1364 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Raleway&family=Roboto:wght@400;500;700;900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 15vh;
+    padding-left: 0 !important;
+}
+
+/* section_2 */
+#section_2 {
+    background-image: linear-gradient(180deg, #0D83A1E6, #0D83A1E6), url("../image/shutterstock_645695308/shutterstock_645695308.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+    padding: 50px;
+    width: 95%;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    z-index: 999999;
+}
+
+.apollo-logo {
+    width: 100px;
+    height: 50px;
+}
+
+.apollo-logo img {
+    width: 100%;
+}
+
+.contact {
+    position: relative;
+    background-color: #08819D;
+    padding: 8px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 38px;
+    height: 38px;
+}
+
+.contact p {
+    position: absolute;
+    top: 4px;
+    left: 36px;
+    color: white;
+}
+
+.contact p:hover {
+    /* display: block;*/
+
+}
+
+.contact:hover {
+    width: 130px;
+    transition: 1.5s;
+}
+
+.highlight {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.small-content {
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-input {
+    background-color: #11282e4d;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: nowrap !important;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    height: 37vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-group input,
+select,
+#submit {
+    padding: 6px;
+    background-color: white;
+    border-radius: 5px !important;
+    border: none;
+    outline: none;
+
+}
+
+.input-group::placeholder {
+    color: #ADADAD;
+}
+
+select {
+    color: #ADADAD;
+}
+
+#submit {
+    background-color: #F9B919;
+    color: white;
+}
+
+/* section_3 */
+#section_3 {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+.paragraph {
+    font-size: 16px;
+    color: #494949;
+    padding: 70px;
+    font-family: 'Roboto';
+}
+
+/* section_4 */
+#section_4 {
+    background: linear-gradient(#90cad8, #0b819f75), url("../image/shutterstock_1407429638.png");
+    width: 95%;
+    height: 494px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.theatre-image {
+    width: 100%;
+
+}
+
+.theatre-image img {
+    width: 100%;
+    background: linear-gradient(#0B819F, #0B819F);
+}
+
+.signs-heading {
+    color: #0D83A1;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.yellow-line {
+    width: 217px;
+    height: 6px;
+    background-color: #F9B919;
+    margin-bottom: 20px;
+}
+
+.most-often {
+    color: #494949;
+    font-family: 'Roboto';
+}
+
+/* section_5 */
+#section_5 {
+    width: 95%;
+    position: relative;
+}
+
+.right-content {
+    display: flex;
+    display: flex;
+    position: fixed;
+    top: 186px;
+    z-index: -1;
+}
+
+.blue-line {
+    background-color: #0D83A1;
+    width: 1px;
+    height: 326px;
+}
+
+.right-link {
+    padding: 14px;
+}
+
+.quick-link a {
+    color: #0D83A1;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.line {
+    background-color: #F9B919;
+    width: 225px;
+    height: 1px;
+    opacity: 0.2;
+}
+
+/* section_6 */
+#section_6 {
+    width: 95%;
+}
+
+.benefits-heading {
+    color: #0D83A1;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.benefits-content {
+    color: #494949;
+    font-family: 'Roboto';
+}
+
+.scanner-image {
+    width: 100%;
+}
+
+.scanner-image img {
+    width: 100%;
+}
+
+/* section_7 */
+#section_7 {
+    width: 95%;
+}
+
+.effective-heading {
+    font-family: 'Roboto';
+    color: #0D83A1;
+    font-size: 44px;
+    font-weight: 500;
+}
+
+.how-para {
+    font-family: 'Roboto';
+    color: #494949;
+}
+
+.statistics-heading {
+    color: #0D83A1;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.statistics-content {
+    font-family: 'Roboto';
+    color: #494949;
+}
+
+.modifiable {
+    display: flex;
+    flex-direction: column;
+}
+
+.modifiable-heading {
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+.modifiable-list {
+    color: #494949;
+}
+
+.non-modifiable-heading {
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+.non-modifiable span {
+    font-weight: bold;
+    color: black;
+    font-family: 'Roboto';
+}
+
+.non-modifiable li {
+    font-family: 'Roboto';
+    color: #494949;
+}
+
+.risk-factor2-heading {
+    color: #0D83A1;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.risk-factor2-content {
+    font-family: 'Roboto';
+    color: #494949;
+}
+
+#section_8 {
+    width: 95%;
+}
+
+.patients-heading {
+    color: #F9B919;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.full-content {
+    font-family: 'Roboto';
+    color: #494949;
+}
+
+.strecher-image {
+    width: 100%;
+}
+
+.strecher-image img {
+    width: 100%;
+
+}
+
+#section_9 {
+    width: 95%;
+}
+
+#section_10 {
+    background-color: white;
+    width: 95%;
+    padding-bottom: 22px;
+}
+
+.doctors {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+
+.doctor-top {
+    font-size: 36px;
+    color: #0D83A1;
+    font-weight: 600;
+}
+
+#doctorline {
+    width: 78px;
+}
+
+.doctor-card {
+    padding: 30px;
+}
+
+.doctor-information {
+    background-color: #0D83A1;
+    padding-bottom: 6px;
+}
+
+/* .doctor-image {
+    width: 100%;
+} */
+
+.doctor-image img {
+    width: 100%;
+}
+
+.doctor-details {
+    text-align: center;
+}
+
+.doctor-details span {
+    color: white;
+    font-weight: 500;
+}
+
+.doctor-details p {
+    font-size: 12px;
+    color: white;
+}
+
+.appointment {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    /* flex-direction: column; */
+}
+
+.viewprofile {
+    font-size: 10px;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 23px;
+    padding: 5px;
+}
+
+.viewprofile p {
+    margin: 0;
+    padding: 0;
+}
+
+.appointmentbtn {
+    font-size: 10px;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 23px;
+    padding: 5px;
+}
+
+.appointmentbtn p {
+    margin: 0;
+    padding: 0;
+}
+
+#section_11 {
+    background-color: #E9E9E9;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#testyellowline {
+    width: 135px;
+    height: 4px;
+    margin-left: 58px;
+}
+
+.testimonial-heading {
+    color: #0D83A1;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    width: 25vw;
+    text-align: center;
+}
+
+#one {
+    display: flex;
+    justify-content: center;
+
+}
+
+.lady {
+    display: flex;
+}
+
+.left-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    /* width: 60%; */
+}
+
+.testimonial-para {
+    font-size: 12px;
+    font-family: 'Roboto';
+    color: #494949;
+}
+
+.star i {
+    color: #F9B919;
+}
+
+#testiline {
+    width: 12px;
+    height: 236px;
+    margin-bottom: 0;
+}
+
+.testimonial-image {
+    width: 154px;
+}
+
+.testimonial-image img {
+    width: 100%;
+}
+
+.test-heading {
+    color: #707070;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.grey-line {
+    background-color: #868686;
+    width: 100px;
+    height: 3px;
+    margin-bottom: 7px;
+}
+
+.testimonial-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+}
+
+.quotes-image {
+    width: 50px;
+    position: absolute;
+    right: 35px;
+    top: -74px;
+}
+
+.quotes-image img {
+    width: 100%;
+}
+
+/* section_12 */
+
+#section_12 {
+    background-color: white;
+    width: 95%;
+    padding-bottom: 50px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.blog-heading {
+    font-size: 38px;
+    color: #0D83A1;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.blog-top {
+    padding: 60px;
+}
+
+#blogline {
+    width: 58px;
+}
+
+.from-card {
+    padding: 80px;
+}
+
+.from-flex {
+    margin: 0 auto;
+}
+
+.from-image img {
+    width: 100%;
+}
+
+.from-content {
+    background-color: #0D83A1;
+    /* padding: 16px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.from-para {
+    font-family: 'Roboto';
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    font-family: 'Roboto';
+    /* width: 325px; */
+}
+
+.footer p {
+    font-size: 9px;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #F9B919;
+    font-size: 13px;
+}
+
+.from-heading {
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: white;
+}
+
+.view-all {
+    text-align: center;
+}
+
+#section_13 {
+    background-color: #0D83A1;
+    width: 95%;
+}
+
+.faqs-heading {
+    font-size: 34px;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.accordion {
+    background-color: #0D83A1;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.8s;
+}
+
+.accordion i {
+    float: right;
+}
+
+.panel {
+    color: white;
+    padding: 0 18px;
+    background-color: #0D83A1;
+    display: none;
+    overflow: hidden;
+}
+
+.accordian-section {
+    text-align: center;
+
+}
+
+.faqs-section {
+    padding: 47px;
+}
+
+.accordian-list {
+    font-family: 'Roboto';
+}
+
+@media(min-width:320px) and (max-width:767px) {
+    .input-group {
+        /* height: 32vh; */
+    }
+
+    .user-input {
+        width: 93%;
+        margin: 0 auto;
+        height: 90%;
+    }
+
+    #section_2 {
+        padding: 0;
+    }
+
+    .highlight {
+        font-size: 22px;
+    }
+
+    .small-content {
+        font-size: 12px;
+
+    }
+
+    .content {
+        padding: 16px;
+    }
+
+    /* section_3 */
+    #section_3 {
+        /* height: 75vh; */
+    }
+
+    .paragraph {
+        font-size: 12px;
+        padding: 16px;
+    }
+
+    #section_4 {
+        height: 157px;
+    }
+
+    .most-often {
+        font-size: 11px;
+        padding: 4px;
+    }
+
+    .blue-line {
+        display: none;
+    }
+
+    .right-link {
+        display: none;
+    }
+
+    #quick-show {
+        display: flex;
+    }
+
+    .quick-access {
+        position: relative;
+        width: 4px;
+        background-color: #0D83A1;
+        height: 417px;
+        top: 10px;
+    }
+
+    .dot1 {
+        background-color: #0D83A1;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+        top: 47px;
+        left: -4px;
+    }
+
+    .one {
+        position: absolute;
+        left: -18px;
+        top: 40px;
+        color: #0D83A1;
+    }
+
+    .dot2 {
+        background-color: #0D83A1;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+        top: 121px;
+        left: -4px;
+    }
+
+    .two {
+        position: absolute;
+        left: -18px;
+        top: 113px;
+        color: #0D83A1;
+    }
+
+    .dot3 {
+        background-color: #0D83A1;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+        top: 170px;
+        left: -4px;
+    }
+
+    .three {
+        position: absolute;
+        left: -18px;
+        top: 162px;
+        color: #0D83A1;
+    }
+
+    .dot4 {
+        background-color: #0D83A1;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+        top: 228px;
+        left: -4px;
+    }
+
+    .four {
+        position: absolute;
+        left: -18px;
+        top: 220px;
+        color: #0D83A1;
+    }
+
+    .dot5 {
+        background-color: #0D83A1;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+        top: 278px;
+        left: -4px;
+    }
+
+    .five {
+        position: absolute;
+        left: -18px;
+        top: 270px;
+        color: #0D83A1;
+    }
+
+    .dot6 {
+        background-color: #0D83A1;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+        top: 328px;
+        left: -4px;
+    }
+
+    .six {
+        position: absolute;
+        left: -18px;
+        top: 320px;
+        color: #0D83A1;
+    }
+
+    .dot7 {
+        background-color: #0D83A1;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+        top: 373px;
+        left: -4px;
+    }
+
+    .seven {
+        position: absolute;
+        left: -18px;
+        top: 367px;
+        color: #0D83A1;
+    }
+
+    .theatre-image {
+        height: 88%;
+    }
+
+    .theatre-image img {
+        height: 100%;
+    }
+
+    .blog-top {
+        padding: 0;
+    }
+
+    #section_5 {
+        /* height: 73vh; */
+    }
+
+    #section_6 {
+        /* height: 104vh; */
+    }
+
+    /* section_7 */
+    #section_8 {
+        /* height: 107vh; */
+    }
+
+    .effective-heading {
+        font-size: 18px;
+    }
+
+    .how-para {
+        font-size: 11px;
+    }
+
+    .statistics-content {
+        font-size: 11px;
+    }
+
+    .statistics-heading {
+        font-size: 19px;
+    }
+
+    .risk-factor2-heading {
+        font-size: 20px;
+
+    }
+
+    .risk-factor2-content {
+        font-size: 13px;
+    }
+
+    .modifiable-list {
+        font-size: 11px;
+    }
+
+    .non-modifiable {
+        font-size: 11px;
+    }
+
+    .patients-heading {
+        font-size: 16px;
+    }
+
+    .full-content {
+        font-size: 12px;
+    }
+
+    #section_9 {
+        /* height: 385vh; */
+    }
+
+    /* .doctors{
+            display: flex;
+        
+    } */
+    .doctor-card {
+        /* width:60vw; */
+    }
+
+    /* .doctor-card:hover{
+        scale:unset;
+        transition: unset;
+        } */
+    /* .doctor-information{
+            background-color: #0D83A1;
+        } */
+    .slider {
+        flex-wrap: wrap;
+    }
+
+    .left-arrow {
+        display: none;
+    }
+
+    .right-arrow {
+        display: none;
+    }
+
+    #section_11 {}
+
+    #section_12 {}
+
+    #section_13 {
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .benefits-heading {
+        font-size: 19px;
+    }
+
+    .benefits-content {
+        font-size: 11px;
+    }
+
+    .accordian-list {
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .faqs-section {
+        padding: 0;
+    }
+
+    .common {
+        text-align: unset;
+    }
+
+    .faqs-heading {
+        font-size: 20px;
+    }
+
+    .yellow-line {
+        width: 112px;
+        height: 4px;
+    }
+
+    .from-card {
+        padding: 20px;
+    }
+
+    .footer {
+        /* width: 150px; */
+    }
+
+    .footer a {
+        font-size: 13px;
+    }
+
+    .signs-heading {
+        font-size: 24px;
+    }
+
+    .from-heading {
+        font-size: 17px;
+    }
+
+    .from-para {
+        font-size: 12px;
+    }
+
+    .quotes-image {
+        width: 38px;
+        right: 12px;
+        top: -22px;
+    }
+
+    .doctor-top {
+        font-size: 26px;
+    }
+
+    .blog-heading {
+        font-size: 26px;
+        padding-top: 25px;
+    }
+
+    #testyellowline {
+        margin-left: 0;
+    }
+
+    .testimonial-heading {
+        font-size: 26px;
+    }
+
+    .grey-line {
+        width: 100px;
+        height: 3px;
+    }
+
+    .testimonial-para {
+        font-size: 9px;
+    }
+
+    .testimonial-para p {
+        margin-bottom: 0;
+    }
+
+    .testimonial-content {
+        padding: 8px;
+    }
+
+    .testimonial-image {
+        width: 100px;
+        height: 232px;
+    }
+
+    .testimonial-image img {
+        height: 100%;
+    }
+
+    #testiline {
+        width: 9px;
+        height: 232px;
+    }
+
+    .star i {
+        font-size: 11px;
+    }
+
+}
+
+@media(min-width:425px) and (max-width:640px) {
+
+    /* #section_12 {
+        height: 130vh;
+    } */
+    .user-input {
+        width: 77%;
+    }
+
+    .from-card {
+        padding: 50px;
+    }
+}
+
+@media(min-width:641px) and (max-width:767px) {
+    .user-input {
+        width: 60%;
+    }
+}
+
+@media(min-width:768px) {
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six,
+    .seven {
+        display: none;
+    }
+
+    .quotes-image {
+        top: 0px;
+        right: 14px;
+    }
+
+    .doctor-details p {}
+
+    .from-para {
+        font-size: 15px;
+    }
+
+    .from-card {
+        padding: 20px;
+    }
+
+    .from-content {
+        padding: 0;
+    }
+
+}
+
+@media(min-width:768px)and (max-width:1023px) {
+    #section_2 {
+        /* height: 60vw; */
+    }
+
+    .user-input {
+        /* height: unset;
+        width: unset; */
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .highlight {
+        font-size: 26px;
+    }
+
+    .small-content {
+        font-size: 11px;
+    }
+
+    .paragraph {
+        font-size: 17px;
+        padding: 20px;
+    }
+
+    .benefits-heading {
+        font-size: 23px;
+    }
+
+    #section_4 {
+        height: 340px;
+    }
+
+    .effective-heading {
+        font-size: 21px;
+    }
+
+    .how-para {
+        font-size: 14px;
+    }
+
+    .statistics-heading {
+        font-size: 24px;
+    }
+
+    .modifiable-list {
+        font-size: 11px;
+        line-height: 23px;
+    }
+
+    .modifiable-heading {
+        font-size: 13px;
+    }
+
+    .non-modifiable-heading {
+        font-size: 13px;
+    }
+
+    .non-modifiable li {
+        font-size: 11px;
+    }
+
+    #section_8 {
+        /* height: 100vh; */
+    }
+
+    .risk-factor2-heading {
+        font-size: 24px;
+    }
+
+    .risk-factor2-content {
+        font-size: 15px;
+    }
+
+    .patients-heading {
+        font-size: 24px;
+    }
+
+    #section_9 {
+        /* height: 436vh; */
+    }
+
+    #section_12 {
+        /* height: 78vh; */
+    }
+
+    #section_13 {
+        /* height: 130vh; */
+    }
+
+    .common {
+        padding-left: 25px;
+    }
+
+    .from-heading {
+        font-size: 17px;
+    }
+
+    .testimonial-image {
+        width: 130px;
+    }
+
+    #testiline {
+        width: 9px;
+        height: 197px;
+    }
+
+    .testimonial-content {
+        padding: 10px;
+    }
+
+    .testimonial-para {
+        font-size: 10px;
+    }
+
+    .signs-heading {
+        font-size: 23px;
+    }
+}
+
+@media(min-width:1024px) {
+    .content {
+        padding: 38px;
+    }
+
+    .highlight {
+        font-size: 33px;
+    }
+
+    .small-content {
+        font-size: 16px;
+    }
+
+    .user-input {
+        width: 312px;
+    }
+
+    .input-group {
+        /* height: 30vh; */
+    }
+
+    .input-group input {
+        margin-bottom: 4px;
+    }
+
+    #section_3 {
+        display: flex;
+        align-items: center;
+        /* height: 60vh; */
+    }
+
+    .paragraph {}
+
+    .how-para {}
+
+    #section_8 {
+        /* height: 72vh; */
+    }
+
+    .risk-factor2-content {}
+
+    #section_9 {
+        /* height: 322vh; */
+    }
+
+    .doctor-card {
+        /* width: 22vw; */
+    }
+
+    #section_12 {
+        /* height: 80vh; */
+    }
+
+    #section_13 {
+        /* height: 120vh; */
+    }
+
+    .from-heading {
+        font-size: 20px;
+    }
+
+    .from-card {
+        padding: 50px;
+    }
+
+    .quotes-image {
+        top: -2px;
+        right: 17px;
+    }
+}
+
+@media(min-width:1200px) {
+    .left-content {
+        margin-top: 18px;
+    }
+
+    #section_6 {
+        /* height: 115vh; */
+    }
+
+    .user-input {
+        /* width: 26vw; */
+    }
+
+}
+
+@media(min-width:1326px) {
+    #section_4 {
+        /* height: 87vh; */
+    }
+}
+
+@media(min-width:1440px) {
+    .left-content {
+        margin-top: 34px;
+    }
+
+    #section_4 {
+        height: 562px;
+    }
+
+    .quotes-image {
+        top: 0px;
+    }
+
+
+
+}
